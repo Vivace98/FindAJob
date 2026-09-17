@@ -14,7 +14,7 @@ description: Screen archived job postings for work shape, hard eligibility, and 
 - `REJECT` 不复制岗位笔记到 `Filter`；在同目录的当日筛选汇总中记录原笔记链接、状态和一句拒绝理由。
 - 不修改 Raw 原笔记，不改变其 Strong/Weak 分类。
 
-使用 [输出模板](references/output-template.md)。每个结论必须遵循“证据 → 规则 → 状态”，只采用 Raw 笔记中转录的 JD 或明确的结构化字段；不能用职位名称、公司名、行业声誉或印象补证据。
+使用 [输出模板](https://github.com/Vivace98/FindAJob/blob/main/job-collection/note-format.md)。每个结论必须遵循“证据 → 规则 → 状态”，只采用 Raw 笔记中转录的 JD 或明确的结构化字段；不能用职位名称、公司名、行业声誉或印象补证据。
 
 ## 筛选顺序
 
