@@ -53,7 +53,7 @@ verification_needed: []
 | Problem Ownership | | |
 | Career Transferability | | |
 
-- 总分：`n/10`（STRONG / ACCEPTABLE）
+- Career Development Score：`n/10`（STRONG / ACCEPTABLE）
 - 结论：说明保留的职业发展理由；不得使用公司声誉、薪资或岗位名称代替证据。
 
 ## 最终结论
@@ -64,4 +64,4 @@ verification_needed: []
 - 工作强度风险：true / false / unknown；说明证据。
 ```
 
-筛选汇总中的 `REJECT` 行必须包含：Raw 原始笔记链接、拒绝步骤（工作形态／硬条件／Career Development）和最短证据理由；不要在 Filter 中另建被拒绝岗位的派生笔记。
+不要在 Filter 中另建被拒绝岗位的派生笔记，也不要创建汇总文件；在完成反馈中报告拒绝数量与主要理由即可。
