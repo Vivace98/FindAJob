@@ -11,7 +11,7 @@ description: Screen archived job postings for work shape, hard eligibility, and 
 
 - 输入：`Raw/Strong` 和 `Raw/Weak` 内的岗位笔记。
 - 输出：只为 `ELIGIBLE` 与 `TO_VERIFY` 的岗位在 `/Users/jinx/Library/Mobile Documents/iCloud~md~obsidian/Documents/CV/1.岗位/Filter` 创建独立筛选笔记，并保留指向 Raw 原笔记的 Obsidian 链接。
-- `REJECT` 不复制岗位笔记到 `Filter`；在同目录的当日筛选汇总中记录原笔记链接、状态和一句拒绝理由。
+- `REJECT` 不复制岗位笔记到 `Filter`，也不另建汇总文件；只在本轮执行反馈中简要报告数量与原因。
 - 不修改 Raw 原笔记，不改变其 Strong/Weak 分类。
 
 使用 [输出模板](https://github.com/Vivace98/FindAJob/blob/main/job-filter/output-template.md)。每个结论必须遵循“证据 → 规则 → 状态”，只采用 Raw 笔记中转录的 JD 或明确的结构化字段；不能用职位名称、公司名、行业声誉或印象补证据。
@@ -69,11 +69,11 @@ description: Screen archived job postings for work shape, hard eligibility, and 
 - `REJECT`：明确仅大专／高中／中专，或明确博士／PhD 为必须条件。
 - `TO_VERIFY`：学历、博士限制或校招届别与候选人届别的关系无法判断。
 
-若用户另行提供个人毕业届别或其他不可变条件，将其写入筛选汇总的 `candidate_profile_used`；未提供时不得猜测。
+若用户另行提供个人毕业届别或其他不可变条件，将其写入每份筛选笔记的 `candidate_profile_used`；未提供时不得猜测。
 
 ## 3. Career Development
 
-对未被工作形态或硬条件拒绝的岗位，按五项各 0–2 分评分：分析深度（AD）、技能积累（SA）、决策暴露（DE）、问题所有权（PO）、职业可迁移性（CT）。总分 `CD = AD + SA + DE + PO + CT`。
+对未被工作形态或硬条件拒绝的岗位，按五项各 0–2 分评分：`Analytical Depth`、`Skill Accumulation`、`Decision Exposure`、`Problem Ownership`、`Career Transferability`。总分为五项之和，写作 `Career Development Score = …/10`；不要使用缩写。
 
 - 8–10：`STRONG`
 - 6–7：`ACCEPTABLE`
@@ -88,10 +88,10 @@ description: Screen archived job postings for work shape, hard eligibility, and 
 - `TO_VERIFY`：不存在 `REJECT`，但一个或多个硬条件为 `TO_VERIFY`。
 - `ELIGIBLE`：所有硬条件和 Career Development 均为 `PASS`。
 
-`LOWER_PRIORITY` 是工作形态标签，不改变上述状态机；它在 Filter 笔记和筛选汇总中单独显示。
+`LOWER_PRIORITY` 是工作形态标签，不改变上述状态机；它在 Filter 笔记中单独显示。
 
 ## 批量交付
 
-先创建或更新 `Filter/YYYY-MM-DD_岗位筛选汇总.md`，用表格列出岗位、Raw 链接、工作形态、四项硬条件、CD 分数、最终状态与待核验事项。然后仅写入符合输出条件的筛选笔记。报告 Strong/Weak 输入数、`ELIGIBLE`／`TO_VERIFY`／`REJECT` 数量及拒绝的主要原因。
+只写入符合输出条件的逐岗位筛选笔记。不要创建筛选汇总、拒绝清单或其他批量派生文件。完成后报告 Strong/Weak 输入数、`ELIGIBLE`／`TO_VERIFY`／`REJECT` 数量及拒绝的主要原因。
 
 只有完成本 skill 的 `ELIGIBLE` 与 `TO_VERIFY` 岗位才进入后续 `job-clustering-profile`。后者不得重新纳入本阶段拒绝的岗位。
