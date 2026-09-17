@@ -13,7 +13,7 @@ Read `1.岗位/Classes/` and follow links back to `1.岗位/Filter/` and `1.岗�
 
 Do not alter Raw, Filter, or Classes notes. Do not infer personal capabilities, create Evidence Units, rank a candidate, write CV bullets, or treat the number of current sample postings as a market-share estimate.
 
-Read [ontology governance](references/ontology-governance.md) before creating or revising ontology notes.
+Read [ontology governance](https://github.com/Vivace98/FindAJob/blob/main/ontology/ontology-governance.md) before creating or revising ontology notes.
 
 ## Outputs
 
