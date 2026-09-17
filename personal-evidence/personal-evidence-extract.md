@@ -13,7 +13,7 @@ Accept source material supplied as file paths, pasted text, a user-written Obsid
 
 Use only facts supported by the supplied source. Do not infer business impact, seniority, tool proficiency, decision ownership, or an outcome from a project title or a target job requirement.
 
-Read [the evidence schema](references/evidence-schema.md) before writing or revising Evidence Units.
+Read [the evidence schema](https://github.com/Vivace98/FindAJob/blob/main/personal-evidence/evidence-schema.md) before writing or revising Evidence Units.
 
 ## Source provenance
 
