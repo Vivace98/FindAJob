@@ -13,7 +13,7 @@ Read the current notes in `3.个人证据库/` and the active ontology under `1.
 
 Do not alter source materials, Evidence Units, Raw/Filter/Classes job notes, the ontology, or Retrieval Lenses. Do not turn missing evidence into a capability gap, infer proficiency from a tool name, match a specific JD, rank jobs, or create CV language.
 
-Read [profile rules](references/profile-rules.md) before writing or refreshing a profile.
+Read [profile rules](https://github.com/Vivace98/FindAJob/blob/main/personal-evidence/profile-rules.md) before writing or refreshing a profile.
 
 ## Outputs
 
