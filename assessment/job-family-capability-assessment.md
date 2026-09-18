@@ -18,7 +18,7 @@ Run only for a user-selected job family or an explicitly requested batch. Read:
 
 Do not reclassify a requirement differently from its current Job Fit Report. If reports disagree or are stale, record the inconsistency and request a matcher refresh rather than silently resolving it. Do not modify Raw, Filter, Classes, Ontology, Retrieval Lenses, Evidence Units, Personal Capability Profile, or Job Fit Reports.
 
-Read [the assessment schema](references/assessment-schema.md) before writing.
+Read [the assessment schema](https://github.com/Vivace98/FindAJob/blob/main/assessment/assessment-schema.md) before writing.
 
 ## Aggregation rules
 
