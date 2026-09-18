@@ -19,7 +19,7 @@ Read:
 
 Do not rerun a current match whose JD, ontology, and profile snapshot are unchanged unless the user asks. If any has materially changed, mark the existing report `stale`; refresh only when requested.
 
-Read [the report schema](references/job-fit-report-schema.md) before creating or refreshing an output.
+Read [the report schema](https://github.com/Vivace98/FindAJob/blob/main/matcher/job-fit-report-schema.md) before creating or refreshing an output.
 
 ## Evidence rule
 
